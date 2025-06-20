@@ -4,6 +4,7 @@ Whole Body Model recreation of “A whole-body multi-scale mathematical model fo
 ## Mathematical approach
 The general model is described as a system of metabolites, reactions and flow in and out of organs. 
 The general dynamics of a single compartment is defined by:
+
 $$V \frac{dC}{dt} = M (Q_{in}C_{in} - Q_{out}C) + RV , $$
 
 where $V$ is the volume, $C$ is a vector containing the concentration of the metabolites, $M$ is the external and internal component ordering, 
